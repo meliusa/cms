@@ -22,5 +22,6 @@ Route::get('/about', function () {
 });
 
 Route::get('/articles/{id} ', function ($id) {
-    echo '“Ini adalah haalaman Artikel dengan ID: ' . $id;
+    echo 'Ini adalah haalaman Artikel dengan ID: ' . $id;
 });
+
